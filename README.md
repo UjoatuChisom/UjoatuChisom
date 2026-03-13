@@ -109,5 +109,5 @@ n8n • Python • APIs • AI Agents
 ## Contact
 
 Email: ujoatuchisom@gmail.com  
-LinkedIn: https://linkedin.com/in/your-linkedin  
+LinkedIn: https://linkedin.com/in/your-linkedin](https://www.linkedin.com/in/chisom-ujoatu-b325221ab/  
 GitHub: https://github.com/UjoatuChisom
