@@ -1,16 +1,17 @@
 # Hi, I'm Chisom Ujoatu 👋
 
-AI Backend / Full-Stack Engineer focused on building scalable backend systems and LLM-powered applications.
+AI Backend Engineer focused on building production-ready systems that combine scalable APIs with LLM-powered automation.
 
-I design and implement production-ready AI systems including:
+I design and implement backend systems for:
+- AI agents and automation workflows
+- Retrieval-Augmented Generation (RAG) pipelines
+- Real-time data processing and distributed systems
+- Scalable API architectures
 
-• Retrieval Augmented Generation (RAG) pipelines  
-• Vector database integrations  
-• AI automation workflows  
-• Scalable backend APIs  
-• Real-time distributed systems  
+🚧 Currently building:
+- AI social media automation agent with performance tracking and content generation
 
-My work focuses on combining modern backend engineering with AI-driven systems.
+---
 
 ## Core Technologies
 
@@ -18,12 +19,14 @@ My work focuses on combining modern backend engineering with AI-driven systems.
 - Python
 - FastAPI
 - REST APIs
-- Microservices
+- WebSockets
+- Microservices architecture
 
 ### AI Systems
-- Retrieval Augmented Generation (RAG)
+- Retrieval-Augmented Generation (RAG)
 - Vector Databases (Pinecone, Chroma, Weaviate)
-- LLM Integrations
+- LLM integrations (OpenAI APIs)
+- AI workflow automation (n8n)
 
 ### Databases
 - PostgreSQL
@@ -31,83 +34,82 @@ My work focuses on combining modern backend engineering with AI-driven systems.
 
 ### Infrastructure
 - Docker
-- Git
-- GitHub
+- Git & GitHub
+
+---
 
 ## Engineering Focus
 
-- AI backend architecture
-- Retrieval systems and vector search
-- Automation infrastructure
-- Scalable API development
-- AI-assisted development workflows
+- Designing AI-native backend systems
+- Building retrieval and vector search pipelines
+- Developing automation systems with LLMs
+- Architecting scalable APIs and services
+- Integrating AI into real-world production workflows
+
+---
 
 ## Featured Engineering Projects
 
-### SmartKeke Ride Platform Backend
+### 🚕 SmartKeke Ride Platform Backend
 
-Real-time ride coordination platform backend.
+Built a real-time ride coordination backend enabling driver-passenger matching, trip lifecycle management, and live updates.
 
-Features:
-- Driver matching
-- Real-time WebSocket updates
-- Ride request APIs
+- Designed REST + WebSocket architecture for real-time communication
+- Implemented driver matching and ride request handling logic
+- Managed trip states and real-time updates using Redis
+- Integrated PostgreSQL for persistent data storage
 
-Tech Stack:
-FastAPI • PostgreSQL • Redis • WebSockets
+**Tech Stack:** FastAPI • PostgreSQL • Redis • WebSockets
 
-### AI Retrieval System (RAG Pipeline)
+---
 
-LLM-powered knowledge retrieval system using vector embeddings and Pinecone.
+### 🧠 AI Retrieval System (RAG Pipeline)
 
-Architecture:
+Developed an LLM-powered retrieval system that processes documents into embeddings and generates context-aware responses.
 
-Documents  
-↓  
-Embedding Model  
-↓  
-Vector Database  
-↓  
-Retriever  
-↓  
-LLM Response  
+- Built document ingestion and embedding pipeline
+- Integrated Pinecone for vector storage and similarity search
+- Implemented retriever + LLM response flow
+- Automated workflows using n8n for data processing
 
-Tech Stack:
-Python • FastAPI • Pinecone • OpenAI • n8n
+**Architecture:**
+Documents → Embeddings → Vector DB → Retriever → LLM Response
 
-### E-Commerce Marketplace Platform (Jumia-style)
+**Tech Stack:** Python • FastAPI • Pinecone • OpenAI • n8n
 
-A scalable full-stack marketplace platform similar to Jumia or Amazon, designed to support product listings, vendor management, and customer purchases.
+---
 
-Key Features:
-- Product catalog and category management
-- Vendor and customer accounts
-- Secure checkout workflow
-- Real-time inventory updates
-- Backend API services for marketplace operations
+### 🛒 E-Commerce Marketplace Platform
 
-Architecture:
+Developed a scalable marketplace backend supporting vendors, products, and customer transactions.
 
-Frontend (Next.js)
-↓
-Backend API
-↓
-PostgreSQL Database
-↓
-Redis Caching Layer
+- Designed backend APIs for product listings, user management, and orders
+- Implemented real-time inventory updates using Redis
+- Built secure checkout and transaction flow
+- Structured system for scalability using modular services
 
-Tech Stack:
-Next.js • TypeScript • PostgreSQL • Redis • REST APIs
+**Architecture:**
+Frontend (Next.js) → Backend API → PostgreSQL → Redis
 
-### AI Workflow Automation Platform
+**Tech Stack:** Next.js • TypeScript • PostgreSQL • Redis • REST APIs
 
-AI-driven automation pipelines integrating APIs, databases, and decision systems.
+---
 
-Tech Stack:
-n8n • Python • APIs • AI Agents
+### ⚙️ AI Workflow Automation Platform
+
+Built AI-driven automation pipelines that integrate APIs, decision logic, and data systems.
+
+- Designed workflows for automating content and operational tasks
+- Integrated LLMs for intelligent decision-making
+- Connected APIs and databases for end-to-end automation
+- Orchestrated workflows using n8n
+
+**Tech Stack:** n8n • Python • APIs • LLMs
+
+---
 
 ## Contact
 
-Email: ujoatuchisom@gmail.com  
-LinkedIn: https://linkedin.com/in/your-linkedin](https://www.linkedin.com/in/chisom-ujoatu-b325221ab/  
-GitHub: https://github.com/UjoatuChisom
+📧 Email: ujoatuchisom@gmail.com  
+🔗 LinkedIn: https://www.linkedin.com/in/chisom-ujoatu-b325221ab/  
+💻 GitHub: https://github.com/UjoatuChisom
