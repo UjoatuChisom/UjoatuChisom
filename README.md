@@ -1,41 +1,59 @@
-# Hi, I'm Chisom Ujoatu 👋
+Hi, I'm Chisom Ujoatu 👋
 
-AI Backend Engineer focused on building production-ready systems that combine scalable APIs with LLM-powered automation.
+Agentic AI Systems Engineer building production-ready AI systems that combine tool-calling agents, workflow orchestration, and scalable backend infrastructure.
 
-I design and implement backend systems for:
-- AI agents and automation workflows
-- Retrieval-Augmented Generation (RAG) pipelines
-- Real-time data processing and distributed systems
-- Scalable API architectures
+I design and deploy:
 
-🚧 Currently building:
-- AI social media automation agent with performance tracking and content generation
+- Agent systems with tool routing (MCP-style architectures)
+- Workflow orchestration using n8n (production pipelines)
+- Retrieval-Augmented Generation (RAG) systems
+- Async job systems (Redis, polling, event-driven flows)
+- Distributed AI backends (FastAPI, Node.js, Docker)
+
+🚀 Currently building:
+- AI Agent SaaS system (MCP + n8n + FastAPI + Redis)
 
 ---
 
 ## Core Technologies
 
 ### Backend
-- Python
-- FastAPI
-- REST APIs
-- WebSockets
+- Python (FastAPI)
+- Node.js (Express)
+- REST APIs, WebSockets
 - Microservices architecture
 
-### AI Systems
-- Retrieval-Augmented Generation (RAG)
-- Vector Databases (Pinecone, Chroma, Weaviate)
-- LLM integrations (OpenAI APIs)
-- AI workflow automation (n8n)
+### Agent Systems
+- MCP (Model Context Protocol)
+- Tool routing & execution engines
+- Agent decision systems
 
-### Databases
+### AI Systems
+- RAG (Retrieval-Augmented Generation)
+- Vector DBs (Pinecone, Chroma)
+- OpenAI APIs
+- Prompt engineering
+
+### Orchestration
+- n8n (production workflows)
+- Make / Zapier (comparative)
+
+### Databases 
 - PostgreSQL
-- Redis
+- Redis (job queues, caching)
 
 ### Infrastructure
 - Docker
 - Git & GitHub
+- AWS
 
+## System Architecture Focus
+
+- Designing async AI pipelines (job → queue → result pattern)
+- Separating orchestration (n8n) from execution (API workers)
+- Building resilient systems with retries, polling, and fault handling
+- Containerized multi-service architectures (Docker Compose)
+- Debugging real-world issues (timeouts, service communication, orchestration failures)
 ---
 
 ## Engineering Focus
@@ -50,14 +68,43 @@ I design and implement backend systems for:
 
 ## Featured Engineering Projects
 
+
+## 🤖 AI Agent SaaS System (MCP + n8n + FastAPI)
+
+Built a production-style agent system with proper separation of concerns between agent logic, orchestration, and execution.
+
+### Key Features:
+- MCP-style tool system (generate_post, get_result)
+- Agent decision engine for tool selection
+- Async job handling using Redis (job_id pattern)
+- n8n as orchestration layer (NOT execution)
+- Polling-based result retrieval system
+- Multi-container architecture (API, agent, DB, queue)
+
+### Architecture:
+Agent (Node.js)
+→ API (FastAPI)
+→ Redis (job state)
+→ n8n (workflow orchestration)
+→ API (result fetch)
+
+### Key Learnings:
+- Avoid circular dependencies between API and orchestrator
+- Proper async design using job queues
+- Debugging container networking + timeouts
+- Designing production-ready AI workflows
+
+### Tech Stack:
+FastAPI • Node.js • Redis • n8n • Docker • OpenAI
+
 ### 🚕 SmartKeke Ride Platform Backend
 
-Built a real-time ride coordination backend enabling driver-passenger matching, trip lifecycle management, and live updates.
+Built a real-time distributed backend system for ride coordination with live state synchronization.
 
 - Designed REST + WebSocket architecture for real-time communication
-- Implemented driver matching and ride request handling logic
-- Managed trip states and real-time updates using Redis
-- Integrated PostgreSQL for persistent data storage
+- Implemented state management using Redis (live updates)
+- Built scalable APIs for trip lifecycle and matching logic
+- Ensured low-latency updates across distributed clients
 
 **Tech Stack:** FastAPI • PostgreSQL • Redis • WebSockets
 
